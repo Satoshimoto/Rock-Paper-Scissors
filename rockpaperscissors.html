@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, paper, scissors game</title>
+    <link rel="stylesheet" href="RockPaperScissors/style.css">
+</head>
+
+<body>
+    <section class="game">
+        <div class="roundSection">
+            <h1>Round: <span class = 'round'></span></h1>
+        </div>
+
+        <div class="results">
+            <div class="winContainer">
+                <p>WIN: </p><span class="win"></span>
+            </div>
+            <div class="tiesContainer">
+                <p>TIES: </p><span class="ties"></span>
+            </div>
+            <div class="loseContainer">
+                <p>LOSE: </p><span class="lose"></span>
+            </div>
+        </div>
+
+        <div class="enemie">
+            COMPUTER CHOICE....
+        </div>
+
+        <div class="player">
+            <button id='rock' class='buttons'>ROCK</button>
+            <button id='paper' class='buttons'>PAPER</button>
+            <button id='scissors' class='buttons'>SCISSORS</button>
+        </div>
+
+        <div class="borderScore"></div>
+
+    </section>
+
+    <script src='RockPaperScissors/Enemie.js'></script>
+    <script src='RockPaperScissors/Results.js'></script>
+    <script src='RockPaperScissors/Game.js'></script>
+</body>
+
+</html>

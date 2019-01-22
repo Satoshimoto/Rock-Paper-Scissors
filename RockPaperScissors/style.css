@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #567;
+}
+
+.game {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.results {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.winContainer {
+    display: inline-block;
+    width: calc(33%);
+    color: lightgreen;
+}
+
+.tiesContainer {
+    display: inline-block;
+    width: calc(33%);
+    color: white;
+}
+
+.loseContainer {
+    display: inline-block;
+    width: calc(33%);
+    color: red;
+}
+
+
+
+.enemie {
+    padding-top: 5%;
+    text-align: center;
+    color: yellow;
+}
+
+.player {
+    padding-top: 5%;
+
+}
+
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 1% 2%;
+    border: 0px;
+    cursor: pointer;
+    width: 10%;
+}
+
+.buttons {
+    margin-left: calc(52%/3);
+}
+
+.borderScore {
+    padding-top: 5%;
+    text-align: center;
+    background-color: #000;
+    margin-top: 2%;
+}
